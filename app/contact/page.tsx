@@ -1,14 +1,15 @@
 import React from 'react'
 import { Navbar } from '../components/Navbar'
-import { Projects } from '../components/Projects'
+import { Contact } from '../components/Contact'
 
 export const page = () => {
   return (
     <div>
         <Navbar />
-        <Projects />
+        <Contact />
     </div>
   )
 }
+
 
 export default page

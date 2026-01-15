@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export const HomePage = () => {
@@ -21,14 +22,14 @@ export const HomePage = () => {
             responsive websites
           </p>
           <div className='flex gap-5'>
-            <button
+            <Link href={'/contact'}
             className='bg-gray-800 text-white rounded-md shadow-lg p-2 text-sm font-semibold'>
               Get In Touch
-            </button>
-            <button
-            className='bg-gray-100 rounded-md shadow-lg shadow-gray-200 font-semibold p-2 text-sm '>
+            </Link>
+            <Link href={'/projects'}
+            className='bg-gray-100 rounded-md shadow-lg shadow-gray-200 font-semibold p-2 text-sm'>
               Browse Projects
-            </button>
+            </Link>
           </div>
         </div>
 

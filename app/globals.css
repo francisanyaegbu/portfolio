@@ -10,3 +10,7 @@ body {
 button {
   cursor: pointer;
 }
+
+.fullstop {
+  color: oklch(49.6% 0.265 301.924)
+}

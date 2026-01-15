@@ -9,7 +9,7 @@ export const Navbar = () => {
         <div className='flex flex-row items-center gap-5'>
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
-          <Link href="/projects">Project</Link>
+          <Link href="/projects">Projects</Link>
           <Link href="/contact">Contact</Link>
         </div>
         <div>
