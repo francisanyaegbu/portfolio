@@ -2,7 +2,7 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div>
+    <div className='bg-linear-to-r from-purple-500 to-gray-100'>
       <div className='flex flex-col justify-center p-15 gap-8'>
         <h1 className='text-6xl font-extrabold'>
           About Me<span className='fullstop'>.</span>

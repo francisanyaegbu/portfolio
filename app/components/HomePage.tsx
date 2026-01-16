@@ -4,13 +4,13 @@ import React from 'react'
 export const HomePage = () => {
   return (
     <div>
-      <div className='w-full flex flex-row justify-between items-center px-15'>
+      <div className='w-full flex flex-row justify-between items-center px-15 bg-linear-to-r from-purple-500 to-gray-100 h-screen'>
         <div>
           <h1 className='text-2xl mb-2'>
             Hey I&apos;m Francis
           </h1>
           <p className='text-7xl font-extrabold'>
-            <span className='text-purple-700'>Front</span>
+            <span className='text-purple-800'>Front</span>
             end
           </p>
           <p className='text-7xl font-extrabold mb-5'>
